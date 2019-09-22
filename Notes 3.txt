@@ -1,0 +1,68 @@
+User login application
+
+STEP 1:create the following forb elements 
+=>Email and password as text boxes and submit button to create the form element 
+we required form tax. Also include a header.
+
+<form>
+<h1 style="color:red"><u>User details</u></h1>
+
+Email:<input type"text id=1><br><br>
+pwd:<input type="text" id=2><br><br>
+<button type="button" onclick="details(document.getElementById(1).value,document.getElementById(2).value)">submit</button>
+ 	  
+
+</form>
+
+In the above example email is identified by id =1 ,pwd is identified by id=2 .when the submit button is clicked the function details
+must get exicuted ,it accepts two parameter 
+1=> Email
+2=> Password
+
+The data entered for email and password are identified as the value, this value can be retrieved with the help of Id
+
+
+STEP 2:
+
+After the form tag, start with javascript code which contains:
+1: A function named as details which accept two parameter(email,pwd) . Email receives the value through id=1,Pwd receives the value through id=2.
+Inside this function perform the following task:
+
+-> Declare and initialize an array of objects with the following details:
+1.Email
+2.Password
+
+
+      var users=[ {email:'jeevankv18@gmail.com',
+                pwd:12345
+                },
+              {
+                email:'jeevankv16@gmail.com',
+                pwd:1234567,
+                },
+               {
+                email:'jeevankv15@gmail.com',
+                pwd:12345678,
+                }]
+
+
+-> Initially assume that email id is wrong and password is also wrong 
+           
+         var isPwdCorrect=false
+         var isUserFound=false    
+
+->for each user belonging to users array that is:
+   
+               for(currentUser in users)
+
+->check the email stored in array compare it with email entered by the user if there is a match the variable isUserFound becomes true
+  compare pwd stored in the array with the pwd entered by the user,if there is a match the variable isPwdCorrect becomes true
+->if user found is true and if pwd correct true then display the message that you are logged in
+->if user found value is true and if pwd correct is false then display the message incorrect password otherwise the user is invalid.
+   
+
+   
+
+    
+
+

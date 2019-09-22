@@ -1,0 +1,676 @@
+JAVASCRIPT AND GITHUB
+
+SECTION 1:
+
+1.<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+var x=10
+
+alert (typeof x )//To add an alert in web
+
+console.log(x)
+
+           var y=prompt(“Enter one more value”) //act as scan function 
+
+           var z=x+y //here + act as concatenation
+
+           console .log(z)
+
+
+
+</script>
+
+</body>
+
+</html>
+
+ 2.<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+var x=‘hello’.
+
+alert (typeof x)
+
+var y=prompt(“Enter one more value”)
+
+           var z=x+y
+
+           alert(x+y)
+
+Var a=10
+
+Var b=20
+
+Var c=a+b
+
+alert(c) //displays 30
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+3.<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+var x=‘hello’.
+
+alert (typeof x)
+
+var y=prompt(“Enter one more value”)
+
+           var z=x+y
+
+           alert(x+y)
+
+Var a=(number)prompt(“enter the first number”)
+
+Var b=(number)prompt(“enter the second number”)
+
+Var c=a+b
+
+alert(c) //displays 30
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+4.       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Var a=10:
+
+Var b=20:
+
+Var c=a+b; //semicolon : is functional
+
+alert(c)
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+5.<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Function print() //function definition
+
+{
+
+Console.log(“hello world”)
+
+}
+
+print() //calling function
+
+print()
+
+print()
+
+print()
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+Output : displays hello world 4 times
+
+ 6.
+
+<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Function sum(a,b)
+
+{
+
+Console.log(a+b)
+
+}
+
+sum(10,20)
+
+sum(30,40)
+
+sum(50,60)
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+Condition question if a=13 return 0 or b=13 return a or if c=13 return a+b
+<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Function magic_number(a,b,c)
+
+{
+
+if(a==13)
+
+Console.log(0)
+
+else if(b==13)
+
+ Console.log(a)
+
+else if(c==13)
+
+Console.log(a+b)
+
+
+
+}
+
+Var a=magic_number(10,20,13);
+
+Var b=magic_number(13,1,2);
+
+Var c=magic_number(10,13,20);
+
+</script>
+
+</body>
+
+</html>
+
+
+
+ 8.<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+var a=0
+
+Var b=0
+
+Var c=a/b
+
+Console.log(c) //NaN not a number: when number is undefined . Undefined result is an NaN 
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+9.
+
+<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Var a
+
+console.log(a) //undefined : when a variable is declared but not initialised it results in an undefined
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+10.
+
+<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+
+
+Var a=[10.20,30,40,50]
+
+Console.log(a[0]) //10
+
+Console.log(a[1]) //20
+
+Console.log(a[100]) //undefined
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+11STACK
+
+<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Var a
+
+Var a=[10.20,30,40,50]
+
+Console.log(a[0]) //10
+
+Console.log(a[1]) //20
+
+Console.log(a[100]) //undefined
+
+Console.log(a) //Array(5)
+
+</script>
+
+</body>
+
+</html>
+
+
+
+12<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Var a
+
+Var a=[10.20,30,40,50]
+
+a.push(60)
+
+Console.log(a) // 10,20,30,40,50,60
+
+a.pop()
+
+Console.log(a) // 10,20,30,40,50
+
+a.unshift(5)
+
+Console.log(a) // 5,10,20,30,40,50
+
+a.shift()
+
+Console.log(a) // 10,20,30,40,50
+
+a.splice(0,2) //30,40,50- deleted 10,20
+
+a.splice(1,3)//10,50 -deleted 20,30,40
+
+var x=a.index()f(20)
+
+Console.log(a) 
+
+Console.log(x) // 1
+
+Var x=a.index()f(200)
+
+Console.log(x) // -1 index of method returns  index of the given number , if the index is not available it returns -1
+
+</script>
+
+</body>
+
+</html>
+
+
+
+13.
+
+<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+var a={10,20,30,40,50,60}
+
+Var num1=a.slice(1,3)
+
+Console.log(num1) //slice(start, end) we extract the portion of array starting from start index to index-1 , index
+
+</script>
+
+</body>
+
+</html>
+
+
+
+14.<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Var x=[{name:’virat’,{id:123}]
+
+alert(x[’name’]) //virat
+
+alert(x.id) //123
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+15.Problem on monkey smiling case:
+
+<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Function trouble(a_smile, b_smile)
+
+{
+
+if(a_smile==true&&b_smile==true)
+
+
+
+Console.log(“we are in trouble”)
+
+
+
+if(a_smile==false&&b_smile==false)
+
+Console.log(“we are in trouble”)
+
+
+
+else
+
+Console.log(“we are not in trouble”)
+
+}
+
+trouble(false, false)
+
+trouble(true, false)
+
+trouble(false, true)
+
+trouble(true, true)
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+16.
+
+<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Function copy(str,num)
+
+{
+
+Var res=[]
+
+Var i=1
+
+while(i<=num)
+
+{
+
+res=res+str
+
+i=I+1
+
+}
+
+Return res
+
+}
+
+Copy (“hi”,2)
+
+Copy (“hi”,5)
+
+</script>
+
+</body>
+
+</html>
+
+OUTPUT
+
+hihi
+
+Hihihihihi
+
+
+
+17.<html>
+
+       <head>
+
+       <title>
+
+        My program</title>
+
+       </head>
+
+<body>
+
+<script>
+
+Var x=prompt(“enter the first val”)
+
+Var y=prompt(“enter the second val”)
+
+varx1=parseint(x)
+
+Varx2=parseint(y)
+
+alert(x1+x2) //30
+
+</script>
+
+</body>
+
+</html>

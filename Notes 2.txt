@@ -1,0 +1,66 @@
+Javascript primitive data type
+
+String present string in double quotes
+
+Number
+
+Booleans
+
+Difference between == and ===
+
+== is a normal equality condition
+
+=== is a strict equality condition
+
+For normal equality condition content is important
+
+For strict equality condition content as well as type is important
+
+STACK
+
+PUSH operation: we can insert the element at the end of the array using push operation
+
+POP operation: we can delete the last element from the array
+
+Unshift OPERATION: we can insert the element at the beginning of the array using unshift
+
+Shift OPERATION: we can delete the first element from the array
+
+—all the array related method should use name of the array along with dot operated and name of function
+
+Splice(index, number) : it will delete the specified number of elements from mentioned index 
+
+NAME : Dhoni 
+
+Name is called key
+
+Var customers=[“rahul”,”Sourav”,”Sachin”]
+
+for(customer in customers)
+
+Console.log(customer)
+
+alert(cs[c]) for above example var c holds index of each enter of the array first time the value of c is 0 next time the value of c is 1…2 till last index
+
+Such type of for loop is same as for each loop of java
+
+This is used to retrieve each and every element of the array 
+
+Var x=prompt(“enter the first val”)
+
+Var y=prompt(“enter the second val”)
+
+varx1=parseint(x)
+
+Varx2=parseint(y)
+
+alert(x1+x2) //30
+
+In javascript by default the entered value would be stored in the form of string
+
+If at all the value we need to convert the given value into integer form we must use the function parse int this function receive a parameter of type string and convert that type into number in the form integer 
+
+Js,python is know as dynamically typed language where datatype of a variable is decided by the type of input we are going assign to a variable
+
+C,cs,java is known as statically typed language 
+

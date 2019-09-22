@@ -1,0 +1,25 @@
+GIT AND GITHUB
+
+step 1:Create a git account using github.com
+step 2: Download git bash for windows
+step 3: Go to cmd propt
+step 4: Check git version -> git --version
+step 5: git config --global user.email "---"
+step 6: git config --global user.name "----"
+step 6:Create a directory using mkdir command
+         mkdir day2-repo
+step  8: Change the current directory to recently created directory
+         cd day2-repo
+step 9:Execute the command -> git init, after executing this command the current directry acts like repository
+step 10: Create a file -> notepad day2file.txt ,similarly we can create multiple files 
+step 11: All the create file can be sent to staging area using -> git add .
+step 12:The same file can be sent local repository using -> git commit -m"My first commit"
+step 13: Open the github account click on new option and create a repository and commit the changes,now this remote repository has its own
+         link with extension .git
+step 14: Establish the connection with remote repository using command ->git remote add origin<paste the http link>
+         Now push the files from local repository to remote repository using ->git push origin master
+step 15: After running the push command go back to github acct and check the repository ,now the files of local repository are available 
+          in remote repository
+step 16: Create a file in github account and commit the changes,now create the mirror image of the remote repository for the first time using
+         the command -> git clone <paste link>
+step 17: Now pull the content of remote repository using -> git pull origin master ,now the content from remote repository will be available
